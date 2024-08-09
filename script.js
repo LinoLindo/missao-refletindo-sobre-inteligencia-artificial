@@ -6,72 +6,71 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Michael Jackson ficou famoso por sua habilidade em dançar e cantar. Qual é o nome do álbum que fez dele uma lenda do pop?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Off the Wall",
+                afirmacao: "Você lembrou corretamente! 'Off the Wall' é um dos álbuns que ajudou a solidificar a carreira de Michael Jackson."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Thriller",
+                afirmacao: "Correto! 'Thriller' é o álbum mais famoso de Michael Jackson e é considerado o maior sucesso da carreira dele."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Michael Jackson é conhecido por seu icônico movimento de dança, o 'moonwalk'. Em que ano ele apresentou essa dança pela primeira vez na televisão?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "1983",
+                afirmacao: "Isso mesmo! Michael Jackson apresentou o 'moonwalk' pela primeira vez durante uma performance na televisão em 1983."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "1985",
+                afirmacao: "Não exatamente. O 'moonwalk' foi apresentado pela primeira vez em 1983."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Michael Jackson lançou um videoclipe inovador para a música 'Thriller'. Qual é a característica marcante desse videoclipe?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Foi o primeiro videoclipe a incluir efeitos especiais.",
+                afirmacao: "Não é bem isso. 'Thriller' é famoso por seus elementos de dança e efeitos especiais, mas não foi o primeiro a incluir esses efeitos."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Foi o primeiro videoclipe a contar uma história completa com dança e efeitos especiais.",
+                afirmacao: "Correto! O videoclipe de 'Thriller' é conhecido por sua narrativa e produção inovadora, incluindo uma coreografia elaborada e efeitos especiais."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Michael Jackson ganhou vários prêmios ao longo de sua carreira. Qual prêmio importante ele ganhou em 1984?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Grammy de Álbum do Ano",
+                afirmacao: "Na verdade, ele ganhou o Grammy de Álbum do Ano por 'Thriller' em 1984, o que foi um marco em sua carreira."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Grammy de Melhor Videoclipe",
+                afirmacao: "Embora ele tenha recebido muitos prêmios, o Grammy de Álbum do Ano foi um dos mais notáveis ganhos em 1984."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Michael Jackson é conhecido por seu compromisso com a filantropia. Qual fundação ele ajudou a fundar para apoiar crianças?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Fundação Make-A-Wish",
+                afirmacao: "A Fundação Make-A-Wish é uma organização separada, mas Michael Jackson apoiou várias causas infantis."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Fundação Heal the World",
+                afirmacao: "Isso mesmo! Michael Jackson fundou a 'Heal the World Foundation' para apoiar crianças e causas humanitárias ao redor do mundo."
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
@@ -105,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Resumo da sua jornada pelo universo de Michael Jackson:";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
